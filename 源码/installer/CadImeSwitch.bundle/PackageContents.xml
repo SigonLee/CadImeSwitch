@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage
+    SchemaVersion="1.0"
+    AutodeskProduct="AutoCAD"
+    Name="CAD 输入法自动切换"
+    Description="在 AutoCAD / 天正 中根据当前命令自动切换中文/英文输入法。"
+    AppVersion="1.3.8"
+    ProductType="Application"
+    ProductCode="{B1E7B7C2-6D2E-4F1A-9C7B-2F8A3D5E6C10}"
+    UpgradeCode="{9A3C2D41-7E5B-4C8F-A1D2-6B4E8F0C3A22}"
+    Version="1.3.8">
+
+  <CompanyDetails Name="CAD 工具开发组" Url="" Email="" />
+
+  <RuntimeRequirements OS="Win64" Platform="AutoCAD*" SeriesMin="R25.0" SeriesMax="R25.1" />
+
+  <Components Description="CAD 输入法自动切换主程序">
+    <RuntimeRequirements OS="Win64" Platform="AutoCAD*" SeriesMin="R25.0" SeriesMax="R25.1" />
+    <ComponentEntry
+        AppName="CadImeSwitch"
+        Version="1.3.8"
+        ModuleName="./Contents/Windows/CadImeSwitch.dll"
+        AppDescription="CAD 输入法自动切换"
+        LoadOnAutoCADStartup="True"
+        LoadOnCommandInvocation="False" />
+  </Components>
+
+</ApplicationPackage>

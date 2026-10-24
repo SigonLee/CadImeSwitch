@@ -1,0 +1,23 @@
+﻿CadImeSwitch 自检报告
+时间: 2026-10-22 16:40:28
+AutoCAD: 25.1.0.0
+进程: D:\Program Files\Autodesk\AutoCAD 2026\acad.exe
+64 位: True
+配置: C:\Users\Administrator\AppData\Roaming\CadImeSwitch\config.json
+日志: C:\Users\Administrator\AppData\Roaming\CadImeSwitch\logs
+
+启用: True
+后端: TSF
+当前状态: English
+CMDNAMES: [IMESWITCHSELFTEST]
+中文命令数: 41
+输入法配置: 搜狗拼音 / E7EA138E-69F8-11D7-A6EA-00065B844310 / E7EA138F-69F8-11D7-A6EA-00065B844311
+
+已安装 TSF 输入法:
+  {82590C13-F4DD-44f4-BA1D-8667246FDF8E} | CLSID=6a498709-e00b-4c45-a018-8f9e4081ae40 | Profile=82590C13-F4DD-44f4-BA1D-8667246FDF8E | Lang=0x0804
+  {E7EA138F-69F8-11D7-A6EA-00065B844311} | CLSID=E7EA138E-69F8-11D7-A6EA-00065B844310 | Profile=E7EA138F-69F8-11D7-A6EA-00065B844311 | Lang=0x0804
+  {FA550B04-5AD7-411f-A5AC-CA038EC515D7} | CLSID=81d4e9c9-1d3b-41bc-9e6c-4b40bf79e35e | Profile=FA550B04-5AD7-411f-A5AC-CA038EC515D7 | Lang=0x0804
+
+IMM32 上下文:
+  MainWindow=0x61180
+  IMM32 可用=True

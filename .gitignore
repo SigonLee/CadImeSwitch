@@ -1,0 +1,12 @@
+# .NET build output
+bin/
+obj/
+dist/
+
+# Installer temp
+*.user
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.vs/
